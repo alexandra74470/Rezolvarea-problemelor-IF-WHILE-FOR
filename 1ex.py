@@ -5,5 +5,7 @@ elif n==30:
     print('aprilie,iunie,septembrie,noiembrie')
 elif n<28:
     print('eroare')
+elif n>31:
+    print('eroare')
 else:
     print('februarie')
